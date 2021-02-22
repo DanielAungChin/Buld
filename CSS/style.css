@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+    width: 200px;
+    margin: 100px auto;
+}
+button{
+    border-radius: 10px;
+    border-color: red
+}
