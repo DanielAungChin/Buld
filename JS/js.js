@@ -1,9 +1,14 @@
-let img=document.getElementById("offimage");
+function control(){
+    let img=document.getElementById("offimage");
+    let arr=img.src.split("/");
+    console.log(arr);
     
-    function On(){
-        img.src="images/ONBulb.jpg";
+    if(arr[arr.length-1]=="OFFbulb.jpg")
+    {
+        img.src="images/ONbulb.jpg";
     }
-
-    function Off(){
-        img.src="images/OFFBulb.jpg";
+    else
+    {
+        img.src="images/OFFbulb.jpg";
     }
+}
